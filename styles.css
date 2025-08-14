@@ -1,0 +1,19 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 793px;
+  margin: 25px auto;
+
+  header {
+    background-color: #4A4F56;
+    color: #FF8984;
+    text-align: center;
+    padding-block: 19px 12px;
+  }
+}
