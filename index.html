@@ -16,23 +16,48 @@
 
 <body>
   <div class="container">
-    <header>
-      <h1>CSS Dinner Shopping List</h1>
-      <span>Let’s go to the mall!</span>
-    </header>
-    A lot of pickles
-    (for the next lessons about CSS)
-    10 apples
-    (for more CSS manipulations)
-    20 oranges
-    (because they are awesome)
-    13 plates
-    (hm... they always dissapear)
-    15 bentos
-    (for the next lessons about CSS)
-    1 bottle of Sake
-    (for my friends)
-    Bon appetit :)
+    <form>
+      <header>
+        <h1>CSS Dinner Shopping List</h1>
+        <span>Let’s go to the mall!</span>
+      </header>
+
+      <main>
+        <div>
+          <input type="checkbox" name="pickles" id="pickles">
+          <label for="pickles"><span>A lot of pickles<span></label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="apples" id="apples">
+          <label for="apples"><span>10 apples</span></label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="oranges" id="oranges">
+          <label for="oranges"><span>20 oranges</span></label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="plates" id="plates">
+          <label for="plates"><span>13 plates</span></label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="bentos" id="bentos">
+          <label for="bentos"><span>15 bentos</span></label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="sake" id="sake">
+          <label for="sake"><span>1 bottle of Sake</span></label>
+        </div>
+      </main>
+
+      <footer>
+        <button type="submit">Bon appetit :)</button>
+      </footer>
+    </form>
   </div>
 </body>
 
